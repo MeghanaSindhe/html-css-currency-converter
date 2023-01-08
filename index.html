@@ -13,7 +13,22 @@
   <div id="app-container">
     <h1 id="app-title">Currency Converter</h1>
     <div id="app-body">
-      <div id="currency-input-container"></div>
+      <div id="currency-input-container">
+        <div id="input-currency-dropdown">
+          <select name="currency" id="input-currency">
+            <option value="inr">INR</option>
+            <option value="usd">USD</option>
+            <option value="gbp">GBP</option>
+            <option value="eur">EUR</option>
+          </select>
+        </div>
+        <div id="input-currency-container">
+          <div id="currency-input-div">
+            <input id="currency-input" type="number" placeholder="0">
+          </div>
+          <div id="currency-text">Indian rupee</div>
+        </div>
+      </div>
       <div id="currency-output-container"></div>
       <div id="num-pad-container"></div>
     </div>

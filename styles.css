@@ -1,12 +1,50 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+#app-container {
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
-#app-container{
- background: linear-gradient(115deg,#56d8e4 10%, #9f01ea 90%);
- height:100vh;
- width:100%;
+#app-title {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 2.75em;
+  color: #ffffff;
+}
+
+#app-body {
+  background-color: #ffffff;
+  height: 500px;
+  width: 60%;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+#currency-input-container {
+  background-color: pink;
+  width: 100%;
+  height: 4rem;
+}
+
+#currency-output-container {
+  background-color: blue;
+  width: 100%;
+  height: 4rem;
+  margin-top: 2rem;
+}
+
+#num-pad-container {
+  background-color: chartreuse;
+  width: 100%;
+  height: 10rem;
+  margin-top: 2rem;
 }
